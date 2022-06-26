@@ -18,8 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: ibrahimah/argocd-test:21
-        imagePullPolicy: Never
+      - image: ibrahimah/testpy:latest
         name: flaskdemo
         resources: {}
 status: {}
